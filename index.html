@@ -20,7 +20,7 @@
         <div class="col-4 container-fluid">
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                    <h6 class="card-subtitle mb-2 text-muted">Introduzca el txto</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">Introduzca el texto que quiera cifrar</h6>
                     <div class="input-group mb-3">
                         <input type="text" id="texto1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>                     
@@ -31,15 +31,16 @@
         <div class="card">
             <div class="btn-group" role="group" aria-label="Basic mixed styles example">
                 <button type="button" onclick="cifrado1()" class="btn btn-warning">Cifrado de 2 dezplasamientos</button>
-                <button type="button" onclick="cifrado1()" class="btn btn-warning">Cifrado de 3 dezplasamientos</button>
-                <button type="button" onclick="cifrado1()" class="btn btn-danger">Desifrar mensajes de 2 desplazamientos</button>
-                <button type="button" onclick="cifrado1()" class="btn btn-danger">Desifrar mensajes de 3 desplazamientos</button>
+                <button type="button" onclick="cifrado2()" class="btn btn-warning">Cifrado de 3 dezplasamientos</button>
+                <button type="button" onclick="decode1()" class="btn btn-danger">Desifrar mensajes de 2 desplazamientos</button>
+                <button type="button" onclick="decode2()" class="btn btn-danger">Desifrar mensajes de 3 desplazamientos</button>
             </div> 
         </div>
     </div>
         <div class="col-6 container-fluid">
             <div class="card">
                 <div class="card-body">
+                    <h4>Texto cifrado</h4>
                     <div class="input-group mb-3">
                         <input type="text" id="texto2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>  
